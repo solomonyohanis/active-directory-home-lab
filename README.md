@@ -152,6 +152,9 @@ In **Active Directory Users and Computers (ADUC)**, three Organizational Units w
 - Finance-Department
 
 ![Creating HR OU](screenshots/17-create-ou.png)
+![Creating HR OU](screenshots/17-create-ou2.png)
+![Creating HR OU](screenshots/17-create-ou3.png)
+![Creating HR OU](screenshots/17-create-ou4.png)
 *Creating the HR-Department Organizational Unit inside mydomain.com*
 
 ![All OUs Created](screenshots/18-all-ous.png)
@@ -163,7 +166,11 @@ Inside the **IT-Department** OU, a security group and two user accounts were cre
 - **John Smith** (User)
 - **Solomon Yohanis** (User)
 
-![Users in IT OU](screenshots/19-it-department-users.png)
+![Users in IT OU](screenshots/19-it-department-group-users.png)
+![Users in IT OU](screenshots/19-it-department-group-users2.png)
+![Users in IT OU](screenshots/19-it-department-group-users3.png)
+![Users in IT OU](screenshots/19-it-department-group-users4.png)
+![Users in IT OU](screenshots/19-it-department-group-users5.png)
 *IT-Department OU with security group and two domain user accounts*
 
 ---
@@ -175,6 +182,9 @@ From **Client-1**, the machine was joined to `mydomain.com` via **System Propert
 After entering domain admin credentials, the join was successful and the machine was prompted to restart.
 
 ![Domain Join](screenshots/20-domain-join.png)
+![Domain Join](screenshots/20-domain-join2.png)
+![Domain Join](screenshots/20-domain-join3.png)
+![Domain Join](screenshots/20-domain-join4.png)
 *Client-1 (DESKTOP01) successfully joined to mydomain.com — restart required*
 
 ---
@@ -184,6 +194,12 @@ After entering domain admin credentials, the join was successful and the machine
 After the restart, Client-1 was logged into using the domain user account **Solomon Yohanis**, which was created in the IT-Department OU on the Domain Controller.
 
 ![Domain User Login](screenshots/21-domain-user-login.png)
+![Domain User Login](screenshots/21-domain-user-login2.png)
+![Domain User Login](screenshots/21-domain-user-login3.png)
+![Domain User Login](screenshots/21-domain-user-login4.png)
+![Domain User Login](screenshots/21-domain-user-login5.png)
+![Domain User Login](screenshots/21-domain-user-login6.png)
+![Domain User Login](screenshots/21-domain-user-login7.png)
 *Client-1 showing Welcome screen for domain user Solomon Yohanis*
 
 ---
